@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TrabalhoUnidade01</string>
+    <string name="novo_jogo">NEW GAME</string>
+    <string name="descricao_imagem">Imagem da cobra</string>
+    <string name="continuar">CONTINUE</string>
+    <string name="configuracoes">SETTINGS</string>
+    <string name="botaosair">GET OUT</string>
+    <string name="pontuacao">SCORE:</string>
+    <string name="record">RECORD:</string>
+    <string name="novorecord">NEW RECORD!</string>
+    <string name="grande">STRONG</string>
+    <string name="normal">NORMAL</string>
+    <string name="f_cil">EASY</string>
+    <string name="m_dio">AVERAGE</string>
+    <string name="pausar">STOP</string>
+    <string name="d_ficl">HARD</string>
+    <string name="dificuldade">DIFFICULTY</string>
+    <string name="tamanho_do_mapa">"MAP SIZE "</string>
+    <string name="voltar">return</string>
+</resources>

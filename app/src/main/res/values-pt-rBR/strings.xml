@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TrabalhoUnidade01</string>
+    <string name="novo_jogo">NOVO JOGO</string>
+    <string name="descricao_imagem">" snake image"</string>
+    <string name="continuar">CONTINUAR</string>
+    <string name="configuracoes">CONFIGURAÇÕES</string>
+    <string name="botaosair">SAIR</string>
+    <string name="pontuacao">PONTUAÇÃO:</string>
+    <string name="record">RECORD:</string>
+    <string name="novorecord">NOVO RECORD!</string>
+    <string name="grande">GRANDE</string>
+    <string name="normal">NORMAL</string>
+    <string name="tamanho_do_mapa">TAMANHO DO MAPA</string>
+    <string name="dificuldade">DIFICULDADE</string>
+    <string name="f_cil">FÁCIL</string>
+    <string name="d_ficl">DÍFICIL</string>
+    <string name="m_dio">MÉDIO</string>
+    <string name="pausar">PAUSAR</string>
+    <string name="voltar">VOLTAR</string>
+</resources>

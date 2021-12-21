@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="viewEnd"
+        android:background="@drawable/zyroimage"
+        tools:context=".activity.MainActivity">
+
+        <TextView
+            android:id="@+id/idpontuacao"
+            android:layout_width="172dp"
+            android:layout_height="31dp"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/pontuacao"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.41"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.51" />
+
+        <TextView
+            android:id="@+id/idrecord"
+            android:layout_width="160dp"
+            android:layout_height="29dp"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/record"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.39"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.552" />
+
+        <ImageView
+            android:id="@+id/idimagemgameover"
+            android:layout_width="317dp"
+            android:layout_height="224dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.236"
+            app:srcCompat="@drawable/gameover" />
+
+        <ImageView
+            android:id="@+id/idcogumelo"
+            android:layout_width="91dp"
+            android:layout_height="67dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.944"
+            app:srcCompat="@drawable/cogumelo" />
+
+
+        <Button
+            android:id="@+id/botasair"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_200"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/botaosair"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            app:icon="@color/purple_700"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.847" />
+
+        <Button
+            android:id="@+id/botaoNovoJogogameover"
+            android:layout_width="129dp"
+            android:layout_height="49dp"
+            android:backgroundTint="@color/teal_200"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/novo_jogo"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorLink="#FF5722"
+            app:icon="@color/purple_700"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.752" />
+
+        <TextView
+            android:id="@+id/idnovorecorde"
+            android:layout_width="261dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="96dp"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/novorecord"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.598" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

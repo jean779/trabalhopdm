@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="viewEnd"
+        android:background="@drawable/fundojogo"
+        tools:context=".activity.MainActivity">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="317dp"
+            android:layout_height="223dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.276"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/circulo" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00FFFFFF"
+            android:foreground="@drawable/setacima"
+            app:layout_constraintBottom_toTopOf="@+id/imageButton7"
+            app:layout_constraintStart_toEndOf="@+id/imageButton8"
+            app:srcCompat="@drawable/pngvazio" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00FFFFFF"
+            android:foreground="@drawable/setadireita"
+            app:layout_constraintBottom_toTopOf="@+id/imageButton9"
+            app:layout_constraintStart_toEndOf="@+id/imageButton9"
+            app:srcCompat="@drawable/pngvazio" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00FFFFFF"
+            android:foreground="@drawable/setaesquerda"
+            app:layout_constraintBottom_toTopOf="@+id/imageButton9"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton9"
+            app:srcCompat="@drawable/pngvazio" />
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:backgroundTint="#00FFFFFF"
+            android:foreground="@drawable/setabaixo"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintHorizontal_bias="0.486"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:srcCompat="@drawable/pngvazio" />
+
+        <Button
+            android:id="@+id/botaopausar"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:background="#C0C0C0"
+            android:backgroundTint="#C0C0C0"
+            android:backgroundTintMode="multiply"
+            android:fontFamily="@font/press_start_2p"
+            android:text="@string/pausar"
+            android:textColor="@color/black"
+            app:iconTint="#C0C0C0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:strokeColor="#C0C0C0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
